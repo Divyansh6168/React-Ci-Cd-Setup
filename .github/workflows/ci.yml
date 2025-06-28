@@ -11,10 +11,10 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - name: "Setip Node JS"
+            - name: "Setup Node JS"
               uses: actions/setup-node@v4
               with: 
-                node-version: '22'
+                node-version: '21'
             
           #  - name: "Checking Node Version"
           #    run: node -version
